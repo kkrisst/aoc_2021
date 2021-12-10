@@ -37,6 +37,13 @@ console.log(`Number of digits using a unique number of segments: ${uniqueSum}`);
 // d: 6-digesek kozul ami nincs benn mind3-ban, nem c es nem e
 // b: a megmarado lehetoseg (b-vel kozos)
 
+// b: 8-ban es 4-ben kozos, de nincs benne 1-ben, 2 lehetoseg
+// c: 1-ben es 7-ben kozos, 2 lehetoseg
+// d: 8-ban es 4-ben kozos, de nincs benne 1-ben, 2 lehetoseg
+// e: 8-ban benne de 7-ben es 4-ben nem, 2 lehetoseg
+// f: 1-ben es 7-ben kozos, 2 lehetoseg
+// g: 8-ban benne de 7-ben es 4-ben nem, 2 lehetoseg
+
 const findIntersection = list => {
     if (list.length === 0) console.error(`ERROR in findIntersection, empty list`);
     if (list.length === 1) return list[0];
